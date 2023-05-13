@@ -1,0 +1,21 @@
+{
+  "name": "ytmp3-electron-app",
+  "version": "0.0.1",
+  "description": "Aplicación con la que puedes escuchar musica gratis y sin anuncios.",
+  "main": "public/electron.js",
+  "scripts": {
+    "start": "electron public/electron.js",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Yassine Ikken Ikkene",
+  "license": "ISC",
+  "dependencies": {
+    "@cliqz/adblocker-electron": "^1.26.5",
+    "cross-fetch": "^3.1.5"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.4.0",
+    "electron": "^24.1.2"
+  }
+}

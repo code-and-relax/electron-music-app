@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouFree</title>
+    <link rel="stylesheet" href="../data/player.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="../data/player.js"></script>
+</head>
+
+<body>
+    <div id="dragW" class="barStyle">
+        <div class="barStyleMaximize">
+            <img src="../data/minimize.png" alt="Button to minimize window">
+        </div>
+        <div class="barStyleClose">
+            <img src="../data/close.png" alt="Button to close window">
+        </div>
+    </div>
+    <div id="phone">
+        <div id="top-menu">
+            <div class="box-Search-Input">
+                <input type="text" id="getInputSearchData" placeholder="¿Qué quieres escuchar?">
+                <button id="sendPrompt" class="">Buscar</button>
+            </div>
+        </div>
+
+        <div class="thumbnail-border">
+            <img id="song-thumbnail" class="song-thumbnail" src="../data/default-music.png"></img>
+        </div> <!--/thumbnail-border -->
+
+        <div id="song-details">
+            <h3 id="song-title" class="song-title">¿¡A que esperas!?
+            </h3>
+            <!-- id="song-title" class="song-title" -->
+            <i><span id="song-artist" class="song-artist">Tiktok : code.and.chill</span></i>
+        </div> <!-- /song-details -->
+        <div style="display: none;" class="playlist-favorite" id="like-list">
+            <img src="../data/heart.svg" alt="Heart not filled">
+            <img src="../data/heart_filled.svg" alt="Heart filled">
+        </div>
+        <div id="time-slider">
+            <div id="player" style="display: none; visibility: hidden;"></div>
+            <div id="audio-player" class="audio-player">
+                <div class="player-controls">
+                    <div id="seekObjContainer">
+                        <div id="seekObj">
+                            <div id="percentage"></div>
+                        </div>
+                    </div>
+                    <p><small id="currentTime">00:00</small></p>
+                </div>
+            </div>
+        </div> <!-- /time-slider -->
+
+        <div id="song-controls">
+            <div id="button_backward" class="button_backward">
+                <img class="fa-backward" src="../data/nextSong.png" alt="Go back song">
+            </div>
+            <div id="playAudio" class="button_pause">
+                <img id="pause" class="fa-pause" src="../data/play.png" alt="Pause the song">
+            </div>
+            <div id="button_forward" class="button_forward">
+                <img class="fa-forward" src="../data/nextSong.png" alt="Go next song">
+            </div>
+        </div><!-- /song-controls -->
+        <span style="display: flex; flex-wrap: nowrap;white-space:break-spaces;">Ver: <div class="ver">1.1.0</div>
+        </span>
+    </div> <!-- /phone -->
+</body>
+
+</html>
