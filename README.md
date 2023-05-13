@@ -16,7 +16,7 @@ Esta es una aplicación de música sin anuncios que utiliza técnicas de web scr
   ```
 
 3. Asegúrate de tener instalado Node.js en tu sistema.
-  [Node.js](https://nodejs.org/es)  Node.js
+  [Node.js](https://nodejs.org/es)
 
 4. Instala las dependencias del proyecto:
   ```bash
