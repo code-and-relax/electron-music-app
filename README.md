@@ -2,6 +2,10 @@
 
 Esta es una aplicación de música sin anuncios que utiliza técnicas de web scraping para obtener música de la página de YouTube. Con esta aplicación, podrás disfrutar de tus canciones favoritas sin interrupciones publicitarias.
 
+#ScreenShot
+
+![ScreenShoot of the Music APP](app.PNG)
+
 ## Pasos de instalación
 
 1. Clona este repositorio en tu máquina local:
